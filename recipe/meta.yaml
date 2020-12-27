@@ -30,7 +30,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: A chain-able generator for python; inspired by the syntactical sugar of java stream
+  summary: A lazy evaluating, memory efficient, chain-able generator for python; inspired by the syntactical sugar of Java stream
   dev_url: https://github.com/Arnoldosmium/pystreamer
 
 extra:
