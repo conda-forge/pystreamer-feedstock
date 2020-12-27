@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pystreamer-feedstock/blob/master/LICENSE.txt)
 
-Summary: A chain-able generator for python; inspired by the syntactical sugar of java stream
+Summary: A lazy evaluating, memory efficient, chain-able generator for python; inspired by the syntactical sugar of Java stream
 
 Development: https://github.com/Arnoldosmium/pystreamer
 
