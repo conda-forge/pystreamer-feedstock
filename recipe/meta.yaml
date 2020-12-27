@@ -1,18 +1,18 @@
 {% set name = "pyStreamer" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e9ff94c97517a686d41e58fa163e543a340bf802b9c5a911aa7c4833c05c29e4
-  
+  sha256: 1d8da0914612da9a2ec76703fb61fb181a062b3e94999ccaff179a274b2b0b61
+
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A chain-able generator for python; inspired by the syntactical sugar of java stream'
+  summary: A chain-able generator for python; inspired by the syntactical sugar of java stream
   dev_url: https://github.com/Arnoldosmium/pystreamer
 
 extra:
