@@ -1,5 +1,5 @@
 {% set name = "pyStreamer" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 523f596dc6472383adbbea9bb63e325b4fe8a377b6dae420a448f9952105266b
+  sha256: 6737ae79ae9ec77cb0ae318748eb45a87765eab593093f0ac5691b8c56fee6f4
 
 build:
   noarch: python
